@@ -1,0 +1,25 @@
+1 데이터 베이스 로그인 ec2 user
+> sudo systemctl start mariadb 디비를 켜야함 
+> sudo systemctl enable mariadb  재부팅 / 부팅 을 하더라도 자동으로 켜줘 
+> sudo reboot 재부팅
+> sudo systemctl status mariadb
+> mysql -u root -p  mysql 접속  비번 1234
+
+2 워크벤치는 디비에 접속하는 프로그램
+데이터베이스 가 아니다
+
+
+sudo shutdown -h now 인스턴스 중지 명령어
+
+
+.mysite.sh 가 안됩니다 경로설정
+
+그리고 mysite의 정체가 궁금함 
+
+repo안에 config도 안들어가지고 
+work 도 없고 이유를?
+mysite는 
+
+python manage.py makemigration polls
+
+python manage.py migration
